@@ -1,0 +1,3 @@
+C:\Users\User\.Net-tasks\Coordinate\Coordinate\Coordinate\obj\Debug\Coordinate.csproj.AssemblyReference.cache
+C:\Users\User\.Net-tasks\Coordinate\Coordinate\Coordinate\obj\Debug\Coordinate.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\.Net-tasks\Coordinate\Coordinate\Coordinate\obj\Debug\Coordinate.csproj.CoreCompileInputs.cache

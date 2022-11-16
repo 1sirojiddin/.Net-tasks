@@ -1,3 +1,8 @@
 C:\Users\User\.Net-tasks\Coordinate\Coordinate\Coordinate\obj\Debug\Coordinate.csproj.AssemblyReference.cache
 C:\Users\User\.Net-tasks\Coordinate\Coordinate\Coordinate\obj\Debug\Coordinate.csproj.SuggestedBindingRedirects.cache
 C:\Users\User\.Net-tasks\Coordinate\Coordinate\Coordinate\obj\Debug\Coordinate.csproj.CoreCompileInputs.cache
+C:\Users\User\.Net-tasks\Coordinate\Coordinate\Coordinate\bin\Debug\Coordinate.exe.config
+C:\Users\User\.Net-tasks\Coordinate\Coordinate\Coordinate\bin\Debug\Coordinate.exe
+C:\Users\User\.Net-tasks\Coordinate\Coordinate\Coordinate\bin\Debug\Coordinate.pdb
+C:\Users\User\.Net-tasks\Coordinate\Coordinate\Coordinate\obj\Debug\Coordinate.exe
+C:\Users\User\.Net-tasks\Coordinate\Coordinate\Coordinate\obj\Debug\Coordinate.pdb

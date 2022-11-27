@@ -1,0 +1,8 @@
+C:\Users\User\.Net-tasks\Coordinate\Project_Car_Park\Project_Car_Park\bin\Debug\Project_Car_Park.exe.config
+C:\Users\User\.Net-tasks\Coordinate\Project_Car_Park\Project_Car_Park\bin\Debug\Project_Car_Park.exe
+C:\Users\User\.Net-tasks\Coordinate\Project_Car_Park\Project_Car_Park\bin\Debug\Project_Car_Park.pdb
+C:\Users\User\.Net-tasks\Coordinate\Project_Car_Park\Project_Car_Park\obj\Debug\Project_Car_Park.csproj.AssemblyReference.cache
+C:\Users\User\.Net-tasks\Coordinate\Project_Car_Park\Project_Car_Park\obj\Debug\Project_Car_Park.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\.Net-tasks\Coordinate\Project_Car_Park\Project_Car_Park\obj\Debug\Project_Car_Park.csproj.CoreCompileInputs.cache
+C:\Users\User\.Net-tasks\Coordinate\Project_Car_Park\Project_Car_Park\obj\Debug\Project_Car_Park.exe
+C:\Users\User\.Net-tasks\Coordinate\Project_Car_Park\Project_Car_Park\obj\Debug\Project_Car_Park.pdb

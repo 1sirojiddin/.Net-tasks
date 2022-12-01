@@ -1,8 +1,0 @@
-D:\Сирожиддин\visual studio\Project Car\Project Car\bin\Debug\Project Car.exe.config
-D:\Сирожиддин\visual studio\Project Car\Project Car\bin\Debug\Project Car.exe
-D:\Сирожиддин\visual studio\Project Car\Project Car\bin\Debug\Project Car.pdb
-D:\Сирожиддин\visual studio\Project Car\Project Car\obj\Debug\Project Car.csproj.AssemblyReference.cache
-D:\Сирожиддин\visual studio\Project Car\Project Car\obj\Debug\Project Car.csproj.SuggestedBindingRedirects.cache
-D:\Сирожиддин\visual studio\Project Car\Project Car\obj\Debug\Project Car.csproj.CoreCompileInputs.cache
-D:\Сирожиддин\visual studio\Project Car\Project Car\obj\Debug\Project Car.exe
-D:\Сирожиддин\visual studio\Project Car\Project Car\obj\Debug\Project Car.pdb

@@ -1,0 +1,8 @@
+C:\Users\User\.Net-tasks\net_tasks\DevelopmentAndBuildTools\DevelopmentAndBuildTools\bin\Debug\DevelopmentAndBuildTools.exe.config
+C:\Users\User\.Net-tasks\net_tasks\DevelopmentAndBuildTools\DevelopmentAndBuildTools\bin\Debug\DevelopmentAndBuildTools.exe
+C:\Users\User\.Net-tasks\net_tasks\DevelopmentAndBuildTools\DevelopmentAndBuildTools\bin\Debug\DevelopmentAndBuildTools.pdb
+C:\Users\User\.Net-tasks\net_tasks\DevelopmentAndBuildTools\DevelopmentAndBuildTools\obj\Debug\DevelopmentAndBuildTools.csproj.AssemblyReference.cache
+C:\Users\User\.Net-tasks\net_tasks\DevelopmentAndBuildTools\DevelopmentAndBuildTools\obj\Debug\DevelopmentAndBuildTools.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\.Net-tasks\net_tasks\DevelopmentAndBuildTools\DevelopmentAndBuildTools\obj\Debug\DevelopmentAndBuildTools.csproj.CoreCompileInputs.cache
+C:\Users\User\.Net-tasks\net_tasks\DevelopmentAndBuildTools\DevelopmentAndBuildTools\obj\Debug\DevelopmentAndBuildTools.exe
+C:\Users\User\.Net-tasks\net_tasks\DevelopmentAndBuildTools\DevelopmentAndBuildTools\obj\Debug\DevelopmentAndBuildTools.pdb

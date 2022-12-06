@@ -1,1 +1,1 @@
-# Hello my name is Sirojiddin and I'm learning Automatet=d testing 
+# Hello my name is Sirojiddin and I'm learning Automateted testing 

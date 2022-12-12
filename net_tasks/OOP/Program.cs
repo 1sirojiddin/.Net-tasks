@@ -2,7 +2,7 @@
 
 namespace Project_Car
 {
-    class Car_Park              // parent
+    class CarPark              // parent
     {
         public short power;
         public byte Volume;
@@ -19,16 +19,16 @@ namespace Project_Car
         }
 
     }
-    class Passenger_Car : Car_Park // child
+    class PassengerCar : CarPark // child
     {
-        public Passenger_Car(short modelpower, byte modulVolume, string modultype, string modulserial_number, byte modulwheels, short modulnumber_of_gears, string modulmanufacturer) 
+        public PassengerCar(short modelpower, byte modulVolume, string modultype, string modulserial_number, byte modulwheels, short modulnumber_of_gears, string modulmanufacturer) 
         {
             power = modelpower;
             Volume = modulVolume;
             type = modultype;
-            serial_number = modulserial_number;
+            serial_number = modulserialnumber;
             wheels = modulwheels;
-            number_of_gears = modulnumber_of_gears;
+            number_of_gears = modulnumberofgears;
             manufacturer = modulmanufacturer;
 
 
@@ -38,16 +38,16 @@ namespace Project_Car
             Console.WriteLine("Detail information about Passenger Car");
         }
     }
-    class Truck : Car_Park     // child
+    class Truck : CarPark     // child
     {
         public Truck(short modelpower, byte modulVolume, string modultype, string modulserial_number, byte modulwheels, short modulnumber_of_gears, string modulmanufacturer)
         {
             power = modelpower;
             Volume = modulVolume;
             type = modultype;
-            serial_number = modulserial_number;
+            serial_number = modulserialnumber;
             wheels = modulwheels;
-            number_of_gears = modulnumber_of_gears;
+            number_of_gears = modulnumberofgears;
             manufacturer = modulmanufacturer;
 
         }
@@ -56,16 +56,16 @@ namespace Project_Car
             Console.WriteLine("Detail information about Truck");
         }
     }
-    class Bus : Car_Park             //child
+    class Bus : CarPark             //child
     {
         public Bus(short modelpower, byte modulVolume, string modultype, string modulserial_number, byte modulwheels, short modulnumber_of_gears, string modulmanufacturer)
         {
             power = modelpower;
             Volume = modulVolume;
             type = modultype;
-            serial_number = modulserial_number;
+            serial_number = modulserialnumber;
             wheels = modulwheels;
-            number_of_gears = modulnumber_of_gears;
+            number_of_gears = modulnumberofgears;
             manufacturer = modulmanufacturer;
 
         }
@@ -75,16 +75,16 @@ namespace Project_Car
             Console.WriteLine("Detail information about Bus");
         }
     }
-    class Scooter : Car_Park       //child
+    class Scooter : CarPark       //child
     {
         public Scooter(short modelpower, byte modulVolume, string modultype, string modulserial_number, byte modulwheels, short modulnumber_of_gears, string modulmanufacturer)
         {
             power = modelpower;
             Volume = modulVolume;
             type = modultype;
-            serial_number = modulserial_number;
+            serial_number = modulserialnumber;
             wheels = modulwheels;
-            number_of_gears = modulnumber_of_gears;
+            number_of_gears = modulnumberofgears;
             manufacturer = modulmanufacturer;
 
         }
@@ -109,7 +109,7 @@ namespace Project_Car
             
             
             cars.cartechniques();
-            Console.WriteLine("Engine Details/ Power: " + cars.power + " Volume: " + cars.Volume + " Type: " + cars.type + " Serial Number: " + cars.serial_number + " Chassis/ Wheels: " + cars.wheels + " Permissible load: " + cars.permissible_load + " Transmission/ Number of gears: " + cars.number_of_gears + " Manufacture: " + cars.manufacturer);
+            Console.WriteLine("Engine Details/ Power: " + cars.power + " Volume: " + cars.Volume + " Type: " + cars.type + " Serial Number: " + cars.serialnumber + " Chassis/ Wheels: " + cars.wheels + " Permissible load: " + cars.permissibleload + " Transmission/ Number of gears: " + cars.numberofgears + " Manufacture: " + cars.manufacturer);
             truck.cartechniques();
             Console.WriteLine("Engine Details/ Power: " + truck.power + " Volume: " + truck.Volume + " Type: " + truck.type + " Serial Number: " + truck.serial_number + " Chassis/ Wheels: " + truck.wheels + " Permissible load: " + truck.permissible_load + " Transmission/ Number of gears: " + truck.number_of_gears + " Manufacture: " + truck.manufacturer);
             bus.cartechniques();

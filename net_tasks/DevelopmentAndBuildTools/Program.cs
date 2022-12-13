@@ -6,14 +6,15 @@ using System.Threading.Tasks;
 
 namespace DevelopmentAndBuildTools
 {
-     class Program
+    class Program
     {
         static void Main(string[] args)
         {
             Console.WriteLine("Enter some symbols: ");
-            int num1 = 0;
-            num1 = Convert.ToInt32(Console.ReadLine());
+            int num = 0;
+            num = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("The End");
         }
     }
+
 }

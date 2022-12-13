@@ -1,0 +1,8 @@
+C:\Users\akimkina\.Net-tasks\net_tasks\IntegerInDecimal\IntegerInDecimal\IntegerInDecimal\obj\Debug\IntegerInDecimal.csproj.AssemblyReference.cache
+C:\Users\akimkina\.Net-tasks\net_tasks\IntegerInDecimal\IntegerInDecimal\IntegerInDecimal\obj\Debug\IntegerInDecimal.csproj.SuggestedBindingRedirects.cache
+C:\Users\akimkina\.Net-tasks\net_tasks\IntegerInDecimal\IntegerInDecimal\IntegerInDecimal\obj\Debug\IntegerInDecimal.csproj.CoreCompileInputs.cache
+C:\Users\akimkina\.Net-tasks\net_tasks\IntegerInDecimal\IntegerInDecimal\IntegerInDecimal\bin\Debug\IntegerInDecimal.exe.config
+C:\Users\akimkina\.Net-tasks\net_tasks\IntegerInDecimal\IntegerInDecimal\IntegerInDecimal\bin\Debug\IntegerInDecimal.exe
+C:\Users\akimkina\.Net-tasks\net_tasks\IntegerInDecimal\IntegerInDecimal\IntegerInDecimal\bin\Debug\IntegerInDecimal.pdb
+C:\Users\akimkina\.Net-tasks\net_tasks\IntegerInDecimal\IntegerInDecimal\IntegerInDecimal\obj\Debug\IntegerInDecimal.exe
+C:\Users\akimkina\.Net-tasks\net_tasks\IntegerInDecimal\IntegerInDecimal\IntegerInDecimal\obj\Debug\IntegerInDecimal.pdb

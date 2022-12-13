@@ -7,7 +7,7 @@ using System.Xml.Linq;
 
 namespace ProjectCarXMLTransform
 {
-    class PassengerCar
+    Public class PassengerCar
     {
         public string ModelVehicle { get; set; }
         public int Power { get; set; }
@@ -19,7 +19,7 @@ namespace ProjectCarXMLTransform
         public string NumberOfGears { get; set; }
 
     }
-    class Truck
+    Public class Truck
     {
         public string ModelVehicle { get; set; }
         public int Power { get; set; }
@@ -30,7 +30,7 @@ namespace ProjectCarXMLTransform
         public string Manufacturer { get; set; }
         public string NumberOfGears { get; set; }
     }
-    class Bus
+    Public class Bus
     {
         public string ModelVehicle { get; set; }
         public int Power { get; set; }
@@ -41,7 +41,7 @@ namespace ProjectCarXMLTransform
         public string Manufacturer { get; set; }
         public string NumberOfGears { get; set; }
     }
-    class Scooter
+    Public class Scooter
     {
         public string ModelVehicle { get; set; }
         public int Power { get; set; }
@@ -53,7 +53,7 @@ namespace ProjectCarXMLTransform
         public string NumberOfGears { get; set; }
     }
 
-    class XMLTransform
+    Public class XMLTransform
     {
         static void Main()
         {

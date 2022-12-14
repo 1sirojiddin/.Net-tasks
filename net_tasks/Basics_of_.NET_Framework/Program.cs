@@ -4,12 +4,26 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace IntegerinDecimal
+namespace IntegerInDecimal
 {
-    internal class Program
+    class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
+
+
+
+            // Display the Minimum and Maximum values
+            Console.WriteLine("Display Maximum value " +
+                  "of Decimal: {0}", Decimal.MaxValue);
+
+            Console.WriteLine("Display Minimum value of " +
+                        "Decimal: {0}", Decimal.MinValue);
+
+
+
+
+
         }
     }
 }

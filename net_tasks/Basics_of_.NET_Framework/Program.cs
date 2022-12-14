@@ -6,10 +6,13 @@ using System.Threading.Tasks;
 
 namespace IntegerinDecimal
 {
-    internal class Program
+    Public class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
+            decimal num = Convert.ToDecimal(Console.Readline());
+            Console.WriteLine($"Your written number is {num}");
+            Console.ReadLine();
         }
     }
 }

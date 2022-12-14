@@ -2,34 +2,34 @@
 
 namespace Project_Car
 {
-    class CarPark              // parent
+    public class CarPark              // parent
     {
-        public short power;
+        public short Power;
         public byte Volume;
-        public string type;
-        public string serial_number;
-        public byte wheels;
-        public short permissible_load;
+        public string Type;
+        public string SerialNumber;
+        public byte Wheels;
         
-        public short number_of_gears;
-        public string manufacturer;
+        
+        public short NumberOfGears;
+        public string Manufacturer;
         public virtual void cartechniques()
         {
             Console.WriteLine("THE DETAILS OF DIFFERENT TYPES OF VEHICLES");
         }
 
     }
-    class PassengerCar : CarPark // child
+    public class PassengerCar : CarPark // child
     {
-        public PassengerCar(short modelpower, byte modulVolume, string modultype, string modulserial_number, byte modulwheels, short modulnumber_of_gears, string modulmanufacturer) 
+        public PassengerCar(short modulPower, byte modulVolume, string modulType, string modulSerialNumber, byte modulWheels, short modulNumberOfGears, string modulManufacturer) 
         {
-            power = modelpower;
+            Power = modulPower;
             Volume = modulVolume;
-            type = modultype;
-            serial_number = modulserialnumber;
-            wheels = modulwheels;
-            number_of_gears = modulnumberofgears;
-            manufacturer = modulmanufacturer;
+            Type = modulType;
+            SerialNumber = modulSerialNumber;
+            Wheels = modulWheels;
+            NumberOfGears = modulNumberOfGears;
+            Manufacturer = modulManufacturer;
 
 
                 }
@@ -38,17 +38,17 @@ namespace Project_Car
             Console.WriteLine("Detail information about Passenger Car");
         }
     }
-    class Truck : CarPark     // child
+    public class Truck : CarPark     // child
     {
-        public Truck(short modelpower, byte modulVolume, string modultype, string modulserial_number, byte modulwheels, short modulnumber_of_gears, string modulmanufacturer)
+        public Truck(short modulPower, byte modulVolume, string modulType, string modulSerialNumber, byte modulWheels, short modulNumberOfGears, string modulManufacturer)
         {
-            power = modelpower;
+            Power = modulPower;
             Volume = modulVolume;
-            type = modultype;
-            serial_number = modulserialnumber;
-            wheels = modulwheels;
-            number_of_gears = modulnumberofgears;
-            manufacturer = modulmanufacturer;
+            Type = modulType;
+            SerialNumber = modulSerialNumber;
+            Wheels = modulWheels;
+            NumberOfGears = modulNumberOfGears;
+            Manufacturer = modulManufacturer;
 
         }
         public override void cartechniques()
@@ -56,17 +56,17 @@ namespace Project_Car
             Console.WriteLine("Detail information about Truck");
         }
     }
-    class Bus : CarPark             //child
+    public class Bus : CarPark             //child
     {
-        public Bus(short modelpower, byte modulVolume, string modultype, string modulserial_number, byte modulwheels, short modulnumber_of_gears, string modulmanufacturer)
+        public Bus(short modulPower, byte modulVolume, string modulType, string modulSerialNumber, byte modulWheels, short modulNumberOfGears, string modulManufacturer)
         {
-            power = modelpower;
+            Power = modulPower;
             Volume = modulVolume;
-            type = modultype;
-            serial_number = modulserialnumber;
-            wheels = modulwheels;
-            number_of_gears = modulnumberofgears;
-            manufacturer = modulmanufacturer;
+            Type = modulType;
+            SerialNumber = modulSerialNumber;
+            Wheels = modulWheels;
+            NumberOfGears = modulNumberOfGears;
+            Manufacturer = modulManufacturer;
 
         }
 
@@ -75,17 +75,17 @@ namespace Project_Car
             Console.WriteLine("Detail information about Bus");
         }
     }
-    class Scooter : CarPark       //child
+   public class Scooter : CarPark       //child
     {
-        public Scooter(short modelpower, byte modulVolume, string modultype, string modulserial_number, byte modulwheels, short modulnumber_of_gears, string modulmanufacturer)
+        public Scooter(short modulPower, byte modulVolume, string modulType, string modulSerialNumber, byte modulWheels, short modulNumberOfGears, string modulManufacturer)
         {
-            power = modelpower;
+            Power = modulPower;
             Volume = modulVolume;
-            type = modultype;
-            serial_number = modulserialnumber;
-            wheels = modulwheels;
-            number_of_gears = modulnumberofgears;
-            manufacturer = modulmanufacturer;
+            Type = modulType;
+            SerialNumber = modulSerialNumber;
+            Wheels = modulWheels;
+            NumberOfGears = modulNumberOfGears;
+            Manufacturer = modulManufacturer;
 
         }
         public override void cartechniques()
@@ -94,7 +94,7 @@ namespace Project_Car
         }
     }
 
-    class Program
+   public class Program
     {
         static void Main(string[] args)
         {
@@ -109,13 +109,13 @@ namespace Project_Car
             
             
             cars.cartechniques();
-            Console.WriteLine("Engine Details/ Power: " + cars.power + " Volume: " + cars.Volume + " Type: " + cars.type + " Serial Number: " + cars.serialnumber + " Chassis/ Wheels: " + cars.wheels + " Permissible load: " + cars.permissibleload + " Transmission/ Number of gears: " + cars.numberofgears + " Manufacture: " + cars.manufacturer);
+            Console.WriteLine("Engine Details/ Power: " + cars.Power + " Volume: " + cars.Volume + " Type: " + cars.Type + " Serial Number: " + cars.SerialNumber + " Chassis/ Wheels: " + cars.Wheels + " Transmission/ Number of gears: " + cars.NumberOfGears + " Manufacture: " + cars.Manufacturer);
             truck.cartechniques();
-            Console.WriteLine("Engine Details/ Power: " + truck.power + " Volume: " + truck.Volume + " Type: " + truck.type + " Serial Number: " + truck.serial_number + " Chassis/ Wheels: " + truck.wheels + " Permissible load: " + truck.permissible_load + " Transmission/ Number of gears: " + truck.number_of_gears + " Manufacture: " + truck.manufacturer);
+            Console.WriteLine("Engine Details/ Power: " + truck.Power + " Volume: " + truck.Volume + " Type: " + truck.Type + " Serial Number: " + truck.SerialNumber + " Chassis/ Wheels: " + truck.Wheels + " Transmission/ Number of gears: " + truck.NumberOfGears + " Manufacture: " + truck.Manufacturer);
             bus.cartechniques();
-            Console.WriteLine("Engine Details/ Power: " + bus.power + " Volume: " + bus.Volume + " Type: " + bus.type + " Serial Number: " + bus.serial_number + "Chassis/ Wheels: " + bus.wheels + " Permissible load: " + bus.permissible_load + " Transmission/ Number of gears: " + bus.number_of_gears + " Manufacture: " + bus.manufacturer);
+            Console.WriteLine("Engine Details/ Power: " + bus.Power + " Volume: " + bus.Volume + " Type: " + bus.Type + " Serial Number: " + bus.SerialNumber + "Chassis/ Wheels: " + bus.Wheels +" Transmission/ Number of gears: " + bus.NumberOfGears + " Manufacture: " + bus.Manufacturer);
             scooter.cartechniques();
-            Console.WriteLine("Engine Details/ Power: " + scooter.power + " Volume: " + scooter.Volume + " Type: " + scooter.type + " Serial Number: " + scooter.serial_number + " Chassis/ Wheels: " + scooter.wheels + " Permissible load: " + scooter.permissible_load + " Transmission/ Number of gears: " + scooter.number_of_gears + " Manufacture: " + scooter.manufacturer);
+            Console.WriteLine("Engine Details/ Power: " + scooter.Power + " Volume: " + scooter.Volume + " Type: " + scooter.Type + " Serial Number: " + scooter.SerialNumber + " Chassis/ Wheels: " + scooter.Wheels + " Transmission/ Number of gears: " + scooter.NumberOfGears + " Manufacture: " + scooter.Manufacturer);
 
             Console.ReadLine();
         }

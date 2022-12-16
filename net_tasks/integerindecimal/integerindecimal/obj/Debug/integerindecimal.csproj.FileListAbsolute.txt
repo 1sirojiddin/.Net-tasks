@@ -1,8 +1,0 @@
-C:\Users\akimkina\.Net-tasks\net_tasks\integerindecimal\integerindecimal\bin\Debug\integerindecimal.exe.config
-C:\Users\akimkina\.Net-tasks\net_tasks\integerindecimal\integerindecimal\bin\Debug\integerindecimal.exe
-C:\Users\akimkina\.Net-tasks\net_tasks\integerindecimal\integerindecimal\bin\Debug\integerindecimal.pdb
-C:\Users\akimkina\.Net-tasks\net_tasks\integerindecimal\integerindecimal\obj\Debug\integerindecimal.csproj.AssemblyReference.cache
-C:\Users\akimkina\.Net-tasks\net_tasks\integerindecimal\integerindecimal\obj\Debug\integerindecimal.csproj.SuggestedBindingRedirects.cache
-C:\Users\akimkina\.Net-tasks\net_tasks\integerindecimal\integerindecimal\obj\Debug\integerindecimal.csproj.CoreCompileInputs.cache
-C:\Users\akimkina\.Net-tasks\net_tasks\integerindecimal\integerindecimal\obj\Debug\integerindecimal.exe
-C:\Users\akimkina\.Net-tasks\net_tasks\integerindecimal\integerindecimal\obj\Debug\integerindecimal.pdb

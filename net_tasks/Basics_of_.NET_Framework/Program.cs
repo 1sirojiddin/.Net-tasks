@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace IntegerInDecimal
 {
-    class Program
+    Puclic class Program
     {
         static void Main()
         {

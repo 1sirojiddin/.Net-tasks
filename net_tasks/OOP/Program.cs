@@ -109,13 +109,13 @@ namespace Project_Car
             
             
             cars.cartechniques();
-            Console.WriteLine("Engine Details/ Power: " + cars.Power + " Volume: " + cars.Volume + " Type: " + cars.Type + " Serial Number: " + cars.SerialNumber + " Chassis/ Wheels: " + cars.Wheels + " Transmission/ Number of gears: " + cars.NumberOfGears + " Manufacture: " + cars.Manufacturer);
+            Console.WriteLine($"Engine Details/ Power:  {cars.Power} Volume: {cars.Volume} Type: {cars.Type} Serial Number: {cars.SerialNumber} Chassis/ Wheels: {cars.Wheels} Transmission/ Number of gears: {cars.NumberOfGears} Manufacture: {cars.Manufacturer}");
             truck.cartechniques();
-            Console.WriteLine("Engine Details/ Power: " + truck.Power + " Volume: " + truck.Volume + " Type: " + truck.Type + " Serial Number: " + truck.SerialNumber + " Chassis/ Wheels: " + truck.Wheels + " Transmission/ Number of gears: " + truck.NumberOfGears + " Manufacture: " + truck.Manufacturer);
+            Console.WriteLine($"Engine Details/ Power: {truck.Power} Volume: {truck.Volume} Type: {truck.Type} Serial Number: {truck.SerialNumber} Chassis/ Wheels: {truck.Wheels} ransmission/ Number of gears: {truck.NumberOfGears} Manufacture: {truck.Manufacturer}");
             bus.cartechniques();
-            Console.WriteLine("Engine Details/ Power: " + bus.Power + " Volume: " + bus.Volume + " Type: " + bus.Type + " Serial Number: " + bus.SerialNumber + "Chassis/ Wheels: " + bus.Wheels +" Transmission/ Number of gears: " + bus.NumberOfGears + " Manufacture: " + bus.Manufacturer);
+            Console.WriteLine($"Engine Details/ Power: {bus.Power} Volume: {bus.Volume} Type: {bus.Type} Serial Number: {bus.SerialNumber} Chassis/ Wheels: {bus.Wheels} Transmission/ Number of gears: {bus.NumberOfGears} Manufacture: {bus.Manufacturer}");
             scooter.cartechniques();
-            Console.WriteLine("Engine Details/ Power: " + scooter.Power + " Volume: " + scooter.Volume + " Type: " + scooter.Type + " Serial Number: " + scooter.SerialNumber + " Chassis/ Wheels: " + scooter.Wheels + " Transmission/ Number of gears: " + scooter.NumberOfGears + " Manufacture: " + scooter.Manufacturer);
+            Console.WriteLine($"Engine Details/ Power: {scooter.Power} Volume: {scooter.Volume} Type: {scooter.Type} Serial Number: {scooter.SerialNumber} Chassis/ Wheels: {scooter.Wheels} Transmission/ Number of gears: {scooter.NumberOfGears} Manufacture: {scooter.Manufacturer}");
 
             Console.ReadLine();
         }

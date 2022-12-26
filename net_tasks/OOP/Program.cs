@@ -105,7 +105,7 @@ namespace Project_Car
         }
     }
 
-    public class Program
+    class Program
     {
         static void Main()
         {

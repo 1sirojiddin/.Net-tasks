@@ -2,7 +2,7 @@
 
 namespace Project_Car
 {
-    public class CarPark              // parent
+     class CarPark              // parent
     {
         public short Power;
         public byte Volume;
@@ -18,7 +18,7 @@ namespace Project_Car
         }
 
     }
-    public class PassengerCar : CarPark // child
+     class PassengerCar : CarPark // child
     {
         public PassengerCar(short modulPower, byte modulVolume, string modulType, string modulSerialNumber, byte modulWheels, int modulNumberOfSeats, short modulNumberOfGears, string modulManufacturer)
         {
@@ -40,7 +40,7 @@ namespace Project_Car
             Console.WriteLine("");
         }
     }
-    public class Truck : CarPark     // child
+     class Truck : CarPark     // child
     {
         public Truck(short modulPower, byte modulVolume, string modulType, string modulSerialNumber, byte modulWheels, int modulNumberOfSeats, short modulNumberOfGears, string modulManufacturer)
         {
@@ -61,7 +61,7 @@ namespace Project_Car
             Console.WriteLine("");
         }
     }
-    public class Bus : CarPark             //child
+     class Bus : CarPark             //child
     {
         public Bus(short modulPower, byte modulVolume, string modulType, string modulSerialNumber, byte modulWheels, int modulNumberOfSeats, short modulNumberOfGears, string modulManufacturer)
         {
@@ -83,7 +83,7 @@ namespace Project_Car
             Console.WriteLine("");
         }
     }
-    public class Scooter : CarPark       //child
+     class Scooter : CarPark       //child
     {
         public Scooter(short modulPower, byte modulVolume, string modulType, string modulSerialNumber, byte modulWheels, int modulNumberOfSeats, short modulNumberOfGears, string modulManufacturer)
         {

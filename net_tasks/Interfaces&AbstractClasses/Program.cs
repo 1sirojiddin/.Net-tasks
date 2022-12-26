@@ -14,7 +14,7 @@ namespace Coordinate2
         void FlyTo();           // first method interface
         void GetFlyTime();      // second method interface
     }
-    Puclic class Bird : IFlyable
+    puclic class Bird : IFlyable
     {
         public void FlyTo()
         {
@@ -28,7 +28,7 @@ namespace Coordinate2
         {
         }
     }
-    Puclic class AirPlane : IFlyable           // create a system that the guest chooses destination  
+    puclic class AirPlane : IFlyable           // create a system that the guest chooses destination  
     {
         public void FlyTo()                                                          
         {
@@ -56,7 +56,7 @@ namespace Coordinate2
             Console.WriteLine();
         }
     }
-    Public class Drone : IFlyable
+    public class Drone : IFlyable
     {
         public void FlyTo()                         //there is given infrmation about drone's properties
         {

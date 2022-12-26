@@ -1,6 +1,6 @@
 using System;
 
-namespace Expeiment
+namespace IntegerInDecimal
 {
     class Program
     {

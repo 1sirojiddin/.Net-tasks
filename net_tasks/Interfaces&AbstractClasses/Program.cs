@@ -72,13 +72,13 @@ namespace Coordinate2
             switch (num2)
             {
                 case 1:
-                    Console.WriteLine("The drone's speed flight is : " + speed);
+                    Console.WriteLine($"The drone's speed flight is : {speed}");
                     break;
                 case 2:
-                    Console.WriteLine("The drone's flight time flight is : " + flight_time);
+                    Console.WriteLine($"The drone's flight time flight is : {flight_time}");
                     break;
                 case 3:
-                    Console.WriteLine("The drone's speed flight is :" + flight_distamce);
+                    Console.WriteLine($"The drone's speed flight is : {flight_distamce}");
                     break;
             }
 

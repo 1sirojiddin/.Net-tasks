@@ -14,7 +14,7 @@ namespace Coordinate2
         void FlyTo();           // first method interface
         void GetFlyTime();      // second method interface
     }
-     class Bird : IFlyable
+     class Bird : IFlyable              //class Bird
     {
         public void FlyTo()
         {
@@ -28,7 +28,8 @@ namespace Coordinate2
         {
         }
     }
-     class AirPlane : IFlyable           // create a system that the guest chooses destination  
+     class AirPlane : IFlyable           //Class Airplane
+                                            // create a system that the guest chooses destination  
     {
         public void FlyTo()                                                          
         {
@@ -56,7 +57,7 @@ namespace Coordinate2
             Console.WriteLine();
         }
     }
-     class Drone : IFlyable
+     class Drone : IFlyable                            //Class Drone
     {
         public void FlyTo()                         //there is given infrmation about drone's properties
         {

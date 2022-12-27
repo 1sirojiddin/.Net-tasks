@@ -57,8 +57,6 @@ namespace ProjectCarXmlTransform
     {
         static void Main()
         {
-            // Create the data source by using a collection initializer.
-            // The Student class was defined previously in this topic.
             List<PassengerCar> car = new List<PassengerCar>()
             {
                 new PassengerCar {ModelVehicle="Cadillac CT4 2022", Power=325, Type="Luxury sports sedan", Wheels=4,  Volume=90, SerialNumber="N0460056",NumberOfGears="Twin turbo, six speed", Manufacturer="GeneralMotors" },

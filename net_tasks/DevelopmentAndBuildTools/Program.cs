@@ -13,7 +13,7 @@ namespace DevelopmentAndBuildTools
             Console.WriteLine("Enter some symbols: ");
             int num = 0;
             num = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("The End");
+            Console.WriteLine($"Your choosen number is {num}");
         }
     }
 

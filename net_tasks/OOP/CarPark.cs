@@ -1,0 +1,21 @@
+﻿using System;
+
+namespace CarPark
+{
+    public class CarPark
+    {
+        public short Power;
+        public byte Volume;
+        public string Type;
+        public string SerialNumber;
+        public byte Wheels;
+        public int NumberOfSeats;
+        public short NumberOfGears;
+        public string Manufacturer;
+        public virtual void CarTechniques()
+        {
+            Console.WriteLine("THE DETAILS OF DIFFERENT TYPES OF VEHICLES");
+            Console.WriteLine("");
+        }
+    }
+}

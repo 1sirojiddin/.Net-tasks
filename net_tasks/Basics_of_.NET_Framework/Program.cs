@@ -4,11 +4,11 @@ namespace IntegerInDecimal
 {
     class Program
     {
-        static void Main()
+        public static void Main()
         {
-            decimal num = Convert.ToDecimal(Console.ReadLine());
-            Console.WriteLine($"Your written number is {num}");
-            Console.ReadLine();
+            Console.WriteLine("Write the number with comma. Example,"); 
+            float Num = float.Parse(Console.ReadLine());
+            Console.WriteLine($"Your written decimal number is {Num} ");
         }
     }
 }

@@ -7,15 +7,15 @@ namespace Coordinate
     {
         public static void Main()
         {
-            Bird mybird = new Bird();                       //create a bird object
-            mybird.FlyTo();
-            mybird.GetFlyTime();
-            AirPlane myairplane = new AirPlane();           //create a airplane object
-            myairplane.FlyTo();
-            myairplane.GetFlyTime();
-            Drone mydrone = new Drone();                    //create a drone ojbject
-            mydrone.FlyTo();
-            mydrone.GetFlyTime();
+            Bird myBird = new Bird();                       //create a bird object
+            myBird.FlyTo();
+            myBird.GetFlyTime();
+            AirPlane myAirplane = new AirPlane();           //create a airplane object
+            myAirplane.FlyTo();
+            myAirplane.GetFlyTime();
+            Drone myDrone = new Drone();                    //create a drone ojbject
+            myDrone.FlyTo();
+            myDrone.GetFlyTime();
             Console.ReadLine();
         }
     }

@@ -8,7 +8,7 @@ namespace ProjectCar
         public static void Main()
         {
             CarPark vehicles = new CarPark();
-            CarPark cars = new PassengerCar(200, 222, "camaro", "f213g232", 4, 4, 6, "deutsche production");
+            CarPark car = new PassengerCar(200, 222, "camaro", "f213g232", 4, 4, 6, "deutsche production");
             CarPark truck = new Truck(300, 250, "Tractor", "fdsf343242df", 4, 2, 5, "Russian Production");
             CarPark bus = new Bus(600, 250, "Mercedes", "der34354fdsf", 4, 50, 4, "Deutsch technology");
             CarPark scooter = new Scooter(20, 23, "Changan", "d34r35t4", 2, 1, 2, "Chinese technology");

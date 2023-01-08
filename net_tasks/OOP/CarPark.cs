@@ -14,7 +14,7 @@ namespace CarPark
         public string Manufacturer;
         public virtual void DefineTo()
         {
-            Console.WriteLine("THE DETAILS OF DIFFERENT TYPES OF VEHICLES");
+            Console.WriteLine("The details of different types of vehicles");
             Console.WriteLine("");
         }
     }

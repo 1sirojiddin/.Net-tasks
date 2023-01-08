@@ -17,7 +17,7 @@ namespace experiment
             Manufacturer = modulManufacturer;
 
         }
-        public override void CarTechniques()
+        public override void DefineTo()
         {
             Console.WriteLine("");
             Console.WriteLine("Passenger Car|");

@@ -12,14 +12,14 @@ namespace ProjectCar
             CarPark truck = new Truck(300, 250, "Tractor", "fdsf343242df", 4, 2, 5, "Russian Production");
             CarPark bus = new Bus(600, 250, "Mercedes", "der34354fdsf", 4, 50, 4, "Deutsch technology");
             CarPark scooter = new Scooter(20, 23, "Changan", "d34r35t4", 2, 1, 2, "Chinese technology");
-            vehicles.CarTechniques();
-            cars.CarTechniques();
+            vehicles.DefineTo();
+            cars.DefineTo();
             Console.WriteLine($"Engine Details | Power:  {cars.Power} Volume: {cars.Volume} Type: {cars.Type} Serial Number: {cars.SerialNumber} Chassis | Wheels: {cars.Wheels}  Transmission |Number of gears: {cars.NumberOfGears} Manufacture: {cars.Manufacturer}");
-            truck.CarTechniques();
+            truck.DefineTo();
             Console.WriteLine($"Engine Details | Power: {truck.Power} Volume: {truck.Volume} Type: {truck.Type} Serial Number: {truck.SerialNumber} Chassis | Wheels: {truck.Wheels}  Transmission | Number of gears: {truck.NumberOfGears} Manufacture: {truck.Manufacturer}");
-            bus.CarTechniques();
+            bus.DefineTo();
             Console.WriteLine($"Engine Details | Power: {bus.Power} Volume: {bus.Volume} Type: {bus.Type} Serial Number: {bus.SerialNumber} Chassis |Wheels: {bus.Wheels}  Transmission | Number of gears: {bus.NumberOfGears} Manufacture: {bus.Manufacturer}");
-            scooter.CarTechniques();
+            scooter.DefineTo();
             Console.WriteLine($"Engine Details | Power: {scooter.Power} Volume: {scooter.Volume} Type: {scooter.Type} Serial Number: {scooter.SerialNumber} Chassis |Wheels: {scooter.Wheels}  Transmission | Number of gears: {scooter.NumberOfGears} Manufacture: {scooter.Manufacturer}");
             if (cars.NumberOfSeats > 0)
             { Console.WriteLine($"Number of seats in car is {cars.NumberOfSeats} "); }

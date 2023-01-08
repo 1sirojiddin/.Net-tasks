@@ -15,7 +15,7 @@ namespace experiment
                 NumberOfGears = modulNumberOfGears;
                 Manufacturer = modulManufacturer;
             }
-            public override void CarTechniques()
+            public override void DefineTo()
             {
                  Console.WriteLine("");
                 Console.WriteLine("Bus          |");

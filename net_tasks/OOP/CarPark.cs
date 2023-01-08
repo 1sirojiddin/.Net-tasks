@@ -12,7 +12,7 @@ namespace CarPark
         public int NumberOfSeats;
         public short NumberOfGears;
         public string Manufacturer;
-        public virtual void CarTechniques()
+        public virtual void DefineTo()
         {
             Console.WriteLine("THE DETAILS OF DIFFERENT TYPES OF VEHICLES");
             Console.WriteLine("");

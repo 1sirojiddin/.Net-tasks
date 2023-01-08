@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace experiment
+namespace CarPark
 {
      class Scooter : CarPark
     {

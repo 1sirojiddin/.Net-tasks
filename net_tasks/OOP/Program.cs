@@ -5,7 +5,7 @@ namespace ProjectCar
 { 
     class Program
     {
-        static void Main()
+        public static void Main()
         {
             CarPark vehicles = new CarPark();
             CarPark cars = new PassengerCar(200, 222, "camaro", "f213g232", 4, 4, 6, "deutsche production");

@@ -1,11 +1,11 @@
-﻿using System;
+﻿ using System;
 
 namespace ProjectCarXmlTransform
 {
     class Truck
     {
-        public string ModelVehicle { get; set; }
-        public int Power { get; set; }
+        public string modelVehicle { get; set; }
+        public int power { get; set; }
         public string Type { get; set; }
         public int Volume { get; set; }
         public int Wheels { get; set; }

@@ -12,64 +12,64 @@ namespace ProjectCarXmlTransform
             {
                 List<PassengerCar> car = new List<PassengerCar>()
             {
-                new PassengerCar {ModelVehicle="Cadillac CT4 2022", Power=325, Type="Luxury sports sedan", Wheels=4,  Volume=90, SerialNumber="N0460056",NumberOfGears="Twin turbo, six speed", Manufacturer="GeneralMotors" },
+                new PassengerCar {modelVehicle="Cadillac CT4 2022", power=325, type="Luxury sports sedan", wheels=4,  volume=90, serialNumber="N0460056",numberOfGears="Twin turbo, six speed", manufacturer="GeneralMotors" },
             };
                 List<Truck> truck = new List<Truck>()
             {
-                new Truck {ModelVehicle="Actros 2640LS", Power=400, Type="Integral Power Steering", Wheels=10,  Volume=90, SerialNumber="N0460056",NumberOfGears="Twin turbo, six speed", Manufacturer="GeneralMotors"}
+                new Truck {modelVehicle="Actros 2640LS", power=400, type="Integral power Steering", wheels=10,  volume=90, serialNumber="N0460056",numberOfGears="Twin turbo, six speed", manufacturer="GeneralMotors"}
             };
                 List<Bus> bus = new List<Bus>()
             {
-                new Bus{ModelVehicle="eCitaro", Power=490, Type="Voith automatic transmission", Wheels=4,  Volume=96, SerialNumber="WEB63960113221075",NumberOfGears="five different 16-speed gearbox", Manufacturer="Mercedes-Benz"}
+                new Bus{modelVehicle="eCitaro", power=490, type="Voith automatic transmission", wheels=4,  volume=96, serialNumber="WEB63960113221075",numberOfGears="five different 16-speed gearbox", manufacturer="Mercedes-Benz"}
             };
                 List<Scooter> scooter = new List<Scooter>()
             {
-                new Scooter{ModelVehicle="Apollo city", Power=500, Type="electric scooter", Wheels=2,  Volume=48, SerialNumber="City2101101",NumberOfGears="14.5 Max.speed", Manufacturer="Electric Scooter Factory"}
+                new Scooter{modelVehicle="Apollo city", power=500, type="electric scooter", wheels=2,  volume=48, serialNumber="City2101101",numberOfGears="14.5 Max.speed", manufacturer="Electric Scooter Factory"}
             };
                 // Create the query.
-                var CarsToXml = new XElement("Root",
+                var carsToXml = new XElement("Root",
                     from PassengerCar in car
                     select new XElement("PassengerCarDetails",
-                                new XElement("ModerVehicle", PassengerCar.ModelVehicle),
-                                new XElement("Power", PassengerCar.Power),
-                                new XElement("Type", PassengerCar.Type),
-                                new XElement("Wheels", PassengerCar.Wheels),
-                                new XElement("Volume", PassengerCar.Volume),
-                                new XElement("SerialNumber", PassengerCar.SerialNumber),
-                                new XElement("Manufacturer", PassengerCar.Manufacturer)
+                                new XElement("ModelVehicle", PassengerCar.modelVehicle),
+                                new XElement("power", PassengerCar.power),
+                                new XElement("type", PassengerCar.type),
+                                new XElement("wheels", PassengerCar.wheels),
+                                new XElement("volume", PassengerCar.volume),
+                                new XElement("serialNumber", PassengerCar.serialNumber),
+                                new XElement("manufacturer", PassengerCar.manufacturer)
                                 ),
                      from Truck in truck
                      select new XElement("TruckCarDetails",
-                                 new XElement("ModerVehicle", Truck.ModelVehicle),
-                                 new XElement("Power", Truck.Power),
-                                 new XElement("Type", Truck.Type),
-                                 new XElement("Wheels", Truck.Wheels),
-                                 new XElement("Volume", Truck.Volume),
-                                 new XElement("SerialNumber", Truck.SerialNumber),
-                                 new XElement("Manufacturer", Truck.Manufacturer)
+                                 new XElement("ModelVehicle", Truck.modelVehicle),
+                                 new XElement("power", Truck.power),
+                                 new XElement("type", Truck.type),
+                                 new XElement("wheels", Truck.wheels),
+                                 new XElement("volume", Truck.volume),
+                                 new XElement("serialNumber", Truck.serialNumber),
+                                 new XElement("manufacturer", Truck.manufacturer)
                                  ),
                      from Bus in bus
                      select new XElement("BusCarDetails",
-                                 new XElement("ModerVehicle", Bus.ModelVehicle),
-                                 new XElement("Power", Bus.Power),
-                                 new XElement("Type", Bus.Type),
-                                 new XElement("Wheels", Bus.Wheels),
-                                 new XElement("Volume", Bus.Volume),
-                                 new XElement("SerialNumber", Bus.SerialNumber),
-                                 new XElement("Manufacturer", Bus.Manufacturer)
+                                 new XElement("ModelVehicle", Bus.modelVehicle),
+                                 new XElement("power", Bus.power),
+                                 new XElement("type", Bus.type),
+                                 new XElement("wheels", Bus.wheels),
+                                 new XElement("volume", Bus.volume),
+                                 new XElement("serialNumber", Bus.serialNumber),
+                                 new XElement("manufacturer", Bus.manufacturer)
                                  ),
                      from Scooter in scooter
                      select new XElement("ScooterCarDetails",
-                                 new XElement("ModerVehicle", Scooter.ModelVehicle),
-                                 new XElement("Power", Scooter.Power),
-                                 new XElement("Type", Scooter.Type),
-                                 new XElement("Wheels", Scooter.Wheels),
-                                 new XElement("Volume", Scooter.Volume),
-                                 new XElement("SerialNumber", Scooter.SerialNumber),
-                                 new XElement("Manufacturer", Scooter.Manufacturer)
+                                 new XElement("ModelVehicle", Scooter.modelVehicle),
+                                 new XElement("power", Scooter.power),
+                                 new XElement("type", Scooter.type),
+                                 new XElement("wheels", Scooter.wheels),
+                                 new XElement("volume", Scooter.volume),
+                                 new XElement("serialNumber", Scooter.serialNumber),
+                                 new XElement("manufacturer", Scooter.manufacturer)
                                  )
                     );
-                Console.WriteLine(CarsToXml);
+                Console.WriteLine(carsToXml);
                 Console.ReadLine();
             }
         }

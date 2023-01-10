@@ -4,13 +4,13 @@ namespace ProjectCarXmlTransform
 {
         class Bus
         {
-            public string ModelVehicle { get; set; }
-            public int Power { get; set; }
-            public string Type { get; set; }
-            public int Volume { get; set; }
-            public int Wheels { get; set; }
-            public string SerialNumber { get; set; }
-            public string Manufacturer { get; set; }
-            public string NumberOfGears { get; set; }
+            public string modelVehicle { get; set; }
+            public int power { get; set; }
+            public string type { get; set; }
+            public int volume { get; set; }
+            public int wheels { get; set; }
+            public string serialNumber { get; set; }
+            public string manufacturer { get; set; }
+            public string numberOfGears { get; set; }
         }
 }

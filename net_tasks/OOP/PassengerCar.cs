@@ -1,9 +1,9 @@
 ﻿using System;
 
 
-namespace experiment
+namespace CarPark
 {
-    class PassengerCar : CarPark
+   class PassengerCar : CarPark
     {
         public PassengerCar(short modulPower, byte modulVolume, string modulType, string modulSerialNumber, byte modulWheels, int modulNumberOfSeats, short modulNumberOfGears, string modulManufacturer)
         {
@@ -21,7 +21,7 @@ namespace experiment
         {
             Console.WriteLine("");
             Console.WriteLine("Passenger Car|");
-            Console.WriteLine("");
+             Console.WriteLine("");
             Console.WriteLine("");
         }
     }

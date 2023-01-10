@@ -6,8 +6,8 @@ namespace Coordinate
     {
         public void FlyTo()
         {
-            int Y = 15;                                                  // Bird's speed
-            Console.WriteLine($"The Bird flight speed is {Y}");
+            int speed = 15;                                                  // Bird's speed
+            Console.WriteLine($"The bird flight speed is {speed}");
             Console.WriteLine("Press the enter to cross over next chapter");
             Console.ReadLine();
         }

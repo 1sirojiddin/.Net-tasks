@@ -1,6 +1,10 @@
 ﻿using System;
 
+<<<<<<< HEAD
 
+=======
+ 
+>>>>>>> 713bc3438bd144690e1c04509cd9c967f0965674
 namespace CarPark
 {
    class PassengerCar : CarPark

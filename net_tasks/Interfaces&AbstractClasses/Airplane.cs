@@ -25,7 +25,7 @@ namespace experiment2
             {
                 Console.WriteLine("You choose Amsterdam to London, destination between them 357 km.");      //the same method like upstairs
                 int numberTwo = 357 / 200;
-                Console.WriteLine($"Arrival time is {numberTwo} Hours");                  //in this place i can use switch method, however i use it to understand how it works
+                Console.WriteLine($"Arrival time is {numberTwo} Hours");
             }
             Console.WriteLine();
         }

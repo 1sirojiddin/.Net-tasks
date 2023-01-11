@@ -8,14 +8,14 @@ namespace Coordinate
         public static void Main()
         {
             Bird myBird = new Bird();                       //create a bird object
-            myBird.FlyTo();
-            myBird.GetFlyTime();
+            myBird.flyTo();
+            myBird.getFlyTime();
             AirPlane myAirplane = new AirPlane();           //create a airplane object
-            myAirplane.FlyTo();
-            myAirplane.GetFlyTime();
-            Drone myDrone = new Drone();                    //create a drone ojbject
-            myDrone.FlyTo();
-            myDrone.GetFlyTime();
+            myAirplane.flyTo();
+            myAirplane.getFlyTime();
+            Drone myDrone = new Drone();                    //create a drone object
+            myDrone.flyTo();
+            myDrone.getFlyTime();
             Console.ReadLine();
         }
     }

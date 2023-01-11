@@ -6,13 +6,13 @@ namespace experiment2
     class AirPlane : IFlyable           //Class Airplane
                                           // create a system that the guest chooses destination  
     {
-        public void FlyTo()
+        public void flyTo()
         {
             Console.WriteLine("Choose the fly deestination ");
             Console.WriteLine("1. Amsterdam to London");                // first destination
             Console.WriteLine("2. Italy to France");                    // second destination
         }
-        public void GetFlyTime()
+        public void getFlyTime()
         {
             Console.WriteLine("Type a given number 1 or 2, and then press Enter");      //technique is created to choose
             int number = Convert.ToInt32(Console.ReadLine());

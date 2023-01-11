@@ -4,6 +4,6 @@ namespace Coordinate
 {
     interface IFlyable
     {
-        void FlyTo(); void GetFlyTime();
+        void flyTo(); void getFlyTime();
     }
 }

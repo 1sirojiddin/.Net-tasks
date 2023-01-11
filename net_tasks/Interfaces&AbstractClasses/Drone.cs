@@ -4,7 +4,7 @@ namespace Coordinate
 {
     class Drone : IFlyable                            //Class Drone
     {
-        public void FlyTo()                         //there is given infrmation about drone's properties
+        public void flyTo()                         //there is given infrmation about drone's properties
         {
             int speed = 349; int flightTime = 2160;   //30 minutes convert to hour
             int flightDistance = speed * flightTime / 1000;
@@ -28,6 +28,6 @@ namespace Coordinate
             }
 
         }
-        public void GetFlyTime(){}
+        public void getFlyTime(){}
     }
 }

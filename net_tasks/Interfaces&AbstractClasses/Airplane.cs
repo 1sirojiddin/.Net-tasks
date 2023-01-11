@@ -1,7 +1,7 @@
 ﻿using System;
 
 
-namespace experiment2
+namespace Coordinate
 {
     class AirPlane : IFlyable           //Class Airplane
                                           // create a system that the guest chooses destination  

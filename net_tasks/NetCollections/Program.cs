@@ -31,42 +31,42 @@ namespace ProjectCarXmlTransform
                     from PassengerCar in car
                     select new XElement("PassengerCarDetails",
                                 new XElement("ModelVehicle", PassengerCar.modelVehicle),
-                                new XElement("power", PassengerCar.power),
-                                new XElement("type", PassengerCar.type),
-                                new XElement("wheels", PassengerCar.wheels),
-                                new XElement("volume", PassengerCar.volume),
-                                new XElement("serialNumber", PassengerCar.serialNumber),
-                                new XElement("manufacturer", PassengerCar.manufacturer)
+                                new XElement("Power", PassengerCar.power),
+                                new XElement("Type", PassengerCar.type),
+                                new XElement("Wheels", PassengerCar.wheels),
+                                new XElement("Volume", PassengerCar.volume),
+                                new XElement("SerialNumber", PassengerCar.serialNumber),
+                                new XElement("Manufacturer", PassengerCar.manufacturer)
                                 ),
                      from Truck in truck
                      select new XElement("TruckCarDetails",
                                  new XElement("ModelVehicle", Truck.modelVehicle),
-                                 new XElement("power", Truck.power),
-                                 new XElement("type", Truck.type),
-                                 new XElement("wheels", Truck.wheels),
-                                 new XElement("volume", Truck.volume),
-                                 new XElement("serialNumber", Truck.serialNumber),
-                                 new XElement("manufacturer", Truck.manufacturer)
+                                 new XElement("Power", Truck.power),
+                                 new XElement("Type", Truck.type),
+                                 new XElement("Wheels", Truck.wheels),
+                                 new XElement("Volume", Truck.volume),
+                                 new XElement("SerialNumber", Truck.serialNumber),
+                                 new XElement("Manufacturer", Truck.manufacturer)
                                  ),
                      from Bus in bus
                      select new XElement("BusCarDetails",
                                  new XElement("ModelVehicle", Bus.modelVehicle),
-                                 new XElement("power", Bus.power),
-                                 new XElement("type", Bus.type),
-                                 new XElement("wheels", Bus.wheels),
-                                 new XElement("volume", Bus.volume),
-                                 new XElement("serialNumber", Bus.serialNumber),
-                                 new XElement("manufacturer", Bus.manufacturer)
+                                 new XElement("Power", Bus.power),
+                                 new XElement("Type", Bus.type),
+                                 new XElement("Wheels", Bus.wheels),
+                                 new XElement("Volume", Bus.volume),
+                                 new XElement("SerialNumber", Bus.serialNumber),
+                                 new XElement("Manufacturer", Bus.manufacturer)
                                  ),
                      from Scooter in scooter
                      select new XElement("ScooterCarDetails",
                                  new XElement("ModelVehicle", Scooter.modelVehicle),
-                                 new XElement("power", Scooter.power),
-                                 new XElement("type", Scooter.type),
-                                 new XElement("wheels", Scooter.wheels),
-                                 new XElement("volume", Scooter.volume),
-                                 new XElement("serialNumber", Scooter.serialNumber),
-                                 new XElement("manufacturer", Scooter.manufacturer)
+                                 new XElement("Power", Scooter.power),
+                                 new XElement("Type", Scooter.type),
+                                 new XElement("Wheels", Scooter.wheels),
+                                 new XElement("Volume", Scooter.volume),
+                                 new XElement("SerialNumber", Scooter.serialNumber),
+                                 new XElement("Manufacturer", Scooter.manufacturer)
                                  )
                     );
                 Console.WriteLine(carsToXml);

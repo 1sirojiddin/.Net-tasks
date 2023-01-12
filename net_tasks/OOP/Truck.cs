@@ -6,14 +6,14 @@ namespace CarPark
     {
         public Truck(short modulPower, byte modulVolume, string modulType, string modulSerialNumber, byte modulWheels, int modulNumberOfSeats, short modulNumberOfGears, string modulManufacturer)
         {
-            Power = modulPower;
-            Volume = modulVolume;
-            Type = modulType;
-            SerialNumber = modulSerialNumber;
-            Wheels = modulWheels;
-            NumberOfSeats = modulNumberOfSeats;
-            NumberOfGears = modulNumberOfGears;
-            Manufacturer = modulManufacturer;
+            power = modulPower;
+            volume = modulVolume;
+            type = modulType;
+            serialNumber = modulSerialNumber;
+            wheels = modulWheels;
+            numberOfSeats = modulNumberOfSeats;
+            numberOfGears = modulNumberOfGears;
+            manufacturer = modulManufacturer;
         }
         public override void DefineTo()
         {

@@ -4,14 +4,14 @@ namespace CarPark
 {
     public class CarPark
     {
-        public short Power;
-        public byte Volume;
-        public string Type;
-        public string SerialNumber;
-        public byte Wheels;
-        public int NumberOfSeats;
-        public short NumberOfGears;
-        public string Manufacturer;
+        public short power;
+        public byte volume;
+        public string type;
+        public string serialNumber;
+        public byte wheels;
+        public int numberOfSeats;
+        public short numberOfGears;
+        public string manufacturer;
         public virtual void DefineTo()
         {
             Console.WriteLine("The details of different types of vehicles");

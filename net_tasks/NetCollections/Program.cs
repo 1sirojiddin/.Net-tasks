@@ -2,75 +2,74 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Xml.Linq;
-using ProjectCarXmlTransform;
 
 namespace ProjectCarXmlTransform
 {
-        class XMLTransform
+    class XMLTransform
+    {
+        public static void Main()
         {
-            public static void Main()
+            List<PassengerCar> car = new List<PassengerCar>()
+              {
+             new PassengerCar {ModelVehicle = "Cadillac CT4 2022", Power = 325, Type = "Luxury sports sedan", Wheels = 4, Volume = 90, SerialNumber = "N0460056", NumberOfGears = "Twin turbo, six speed", Manufacturer = "GeneralMotors"},
+              };
+            List<Truck> truck = new List<Truck>()
             {
-                List<PassengerCar> car = new List<PassengerCar>()
-            {
-                new PassengerCar {modelVehicle="Cadillac CT4 2022", power=325, type="Luxury sports sedan", wheels=4,  volume=90, serialNumber="N0460056",numberOfGears="Twin turbo, six speed", manufacturer="GeneralMotors" },
+                new Truck {ModelVehicle = "Actros 2640LS", Power = 400, Type = "Integral power Steering", Wheels = 10, Volume = 90, SerialNumber = "N0460056", NumberOfGears = "Twin turbo, six speed", Manufacturer = "GeneralMotors"}
             };
-                List<Truck> truck = new List<Truck>()
+            List<Bus> bus = new List<Bus>()
             {
-                new Truck {modelVehicle="Actros 2640LS", power=400, type="Integral power Steering", wheels=10,  volume=90, serialNumber="N0460056",numberOfGears="Twin turbo, six speed", manufacturer="GeneralMotors"}
+                new Bus{ModelVehicle = "eCitaro", Power = 490, Type = "Voith automatic transmission", Wheels = 4, Volume = 96, SerialNumber = "WEB63960113221075", NumberOfGears = "five different 16-speed gearbox", Manufacturer = "Mercedes-Benz"}
             };
-                List<Bus> bus = new List<Bus>()
+            List<Scooter> scooter = new List<Scooter>()
             {
-                new Bus{modelVehicle="eCitaro", power=490, type="Voith automatic transmission", wheels=4,  volume=96, serialNumber="WEB63960113221075",numberOfGears="five different 16-speed gearbox", manufacturer="Mercedes-Benz"}
+                new Scooter{ModelVehicle = "Apollo city", Power = 500, Type = "electric scooter", Wheels = 2, Volume = 48, SerialNumber = "City2101101", NumberOfGears = "14.5 Max.speed", Manufacturer = "Electric Scooter Factory"}
             };
-                List<Scooter> scooter = new List<Scooter>()
-            {
-                new Scooter{modelVehicle="Apollo city", power=500, type="electric scooter", wheels=2,  volume=48, serialNumber="City2101101",numberOfGears="14.5 Max.speed", manufacturer="Electric Scooter Factory"}
-            };
-                // Create the query.
-                var carsToXml = new XElement("Root",
-                    from PassengerCar in car
-                    select new XElement("PassengerCarDetails",
-                                new XElement("ModelVehicle", PassengerCar.modelVehicle),
-                                new XElement("Power", PassengerCar.power),
-                                new XElement("Type", PassengerCar.type),
-                                new XElement("Wheels", PassengerCar.wheels),
-                                new XElement("Volume", PassengerCar.volume),
-                                new XElement("SerialNumber", PassengerCar.serialNumber),
-                                new XElement("Manufacturer", PassengerCar.manufacturer)
-                                ),
-                     from Truck in truck
-                     select new XElement("TruckCarDetails",
-                                 new XElement("ModelVehicle", Truck.modelVehicle),
-                                 new XElement("Power", Truck.power),
-                                 new XElement("Type", Truck.type),
-                                 new XElement("Wheels", Truck.wheels),
-                                 new XElement("Volume", Truck.volume),
-                                 new XElement("SerialNumber", Truck.serialNumber),
-                                 new XElement("Manufacturer", Truck.manufacturer)
-                                 ),
-                     from Bus in bus
-                     select new XElement("BusCarDetails",
-                                 new XElement("ModelVehicle", Bus.modelVehicle),
-                                 new XElement("Power", Bus.power),
-                                 new XElement("Type", Bus.type),
-                                 new XElement("Wheels", Bus.wheels),
-                                 new XElement("Volume", Bus.volume),
-                                 new XElement("SerialNumber", Bus.serialNumber),
-                                 new XElement("Manufacturer", Bus.manufacturer)
-                                 ),
-                     from Scooter in scooter
-                     select new XElement("ScooterCarDetails",
-                                 new XElement("ModelVehicle", Scooter.modelVehicle),
-                                 new XElement("Power", Scooter.power),
-                                 new XElement("Type", Scooter.type),
-                                 new XElement("Wheels", Scooter.wheels),
-                                 new XElement("Volume", Scooter.volume),
-                                 new XElement("SerialNumber", Scooter.serialNumber),
-                                 new XElement("Manufacturer", Scooter.manufacturer)
-                                 )
-                    );
-                Console.WriteLine(carsToXml);
-                Console.ReadLine();
-            }
+            // Create the query.
+            var carsToXml = new XElement("Root",
+                from PassengerCar in car
+                select new XElement("PassengerCarDetails",
+                            new XElement("ModelVehicle", PassengerCar.ModelVehicle),
+                            new XElement("Power", PassengerCar.Power),
+                            new XElement("Type", PassengerCar.Type),
+                            new XElement("Wheels", PassengerCar.Wheels),
+                            new XElement("Volume", PassengerCar.Volume),
+                            new XElement("SerialNumber", PassengerCar.SerialNumber),
+                            new XElement("Manufacturer", PassengerCar.Manufacturer)
+                            ),
+                 from Truck in truck
+                 select new XElement("TruckCarDetails",
+                             new XElement("ModelVehicle", Truck.ModelVehicle),
+                             new XElement("Power", Truck.Power),
+                             new XElement("Type", Truck.Type),
+                             new XElement("Wheels", Truck.Wheels),
+                             new XElement("Volume", Truck.Volume),
+                             new XElement("SerialNumber", Truck.SerialNumber),
+                             new XElement("Manufacturer", Truck.Manufacturer)
+                             ),
+                 from Bus in bus
+                 select new XElement("BusCarDetails",
+                             new XElement("ModelVehicle", Bus.ModelVehicle),
+                             new XElement("Power", Bus.Power),
+                             new XElement("Type", Bus.Type),
+                             new XElement("Wheels", Bus.Wheels),
+                             new XElement("Volume", Bus.Volume),
+                             new XElement("SerialNumber", Bus.SerialNumber),
+                             new XElement("Manufacturer", Bus.Manufacturer)
+                             ),
+                 from Scooter in scooter
+                 select new XElement("ScooterCarDetails",
+                             new XElement("ModelVehicle", Scooter.ModelVehicle),
+                             new XElement("Power", Scooter.Power),
+                             new XElement("Type", Scooter.Type),
+                             new XElement("Wheels", Scooter.Wheels),
+                             new XElement("Volume", Scooter.Volume),
+                             new XElement("SerialNumber", Scooter.SerialNumber),
+                             new XElement("Manufacturer", Scooter.Manufacturer)
+                             )
+                );
+            Console.WriteLine(carsToXml);
+            Console.ReadLine();
         }
+    }
 }

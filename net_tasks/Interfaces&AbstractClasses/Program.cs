@@ -1,5 +1,4 @@
 ﻿using System;
-using Coordinate;
 
 namespace Coordinate
 {

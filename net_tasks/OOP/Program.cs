@@ -2,7 +2,7 @@
 
 namespace ProjectCar
 { 
-    class Program
+    public class Program
     {
         public static void Main()
         {

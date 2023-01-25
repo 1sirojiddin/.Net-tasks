@@ -2,7 +2,7 @@
 
 namespace Coordinate
 {
-    class Program
+    public class Program
     {
         public static void Main()
         {

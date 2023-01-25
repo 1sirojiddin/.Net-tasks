@@ -3,7 +3,7 @@
 
 namespace Coordinate
 {
-    class AirPlane : IFlyable           //Class Airplane
+    public class AirPlane : IFlyable           //Class Airplane
                                           // create a system that the guest chooses destination  
     {
         public void flyTo()
@@ -20,7 +20,8 @@ namespace Coordinate
             {
                 Console.WriteLine("You choose Italy to France, destination between them 928 km.");  // destination distance is given 
                 int numberOne = 928 / 200;
-                Console.WriteLine($"Arrival time is {numberOne} Hours");          // arrival time is given               
+                Console.WriteLine($"Arrival time is {numberOne} Hours");          // arrival time is given
+            }
             else
             {
                 Console.WriteLine("You choose Amsterdam to London, destination between them 357 km.");      //the same method like upstairs

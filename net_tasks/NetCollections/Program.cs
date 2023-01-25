@@ -5,14 +5,14 @@ using System.Xml.Linq;
 
 namespace ProjectCarXmlTransform
 {
-    class XMLTransform
+    public class XMLTransform
     {
         public static void Main()
         {
             List<PassengerCar> car = new List<PassengerCar>()
-              {
+            {
              new PassengerCar {ModelVehicle = "Cadillac CT4 2022", Power = 325, Type = "Luxury sports sedan", Wheels = 4, Volume = 90, SerialNumber = "N0460056", NumberOfGears = "Twin turbo, six speed", Manufacturer = "GeneralMotors"},
-              };
+            };
             List<Truck> truck = new List<Truck>()
             {
                 new Truck {ModelVehicle = "Actros 2640LS", Power = 400, Type = "Integral power Steering", Wheels = 10, Volume = 90, SerialNumber = "N0460056", NumberOfGears = "Twin turbo, six speed", Manufacturer = "GeneralMotors"}

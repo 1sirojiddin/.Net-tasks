@@ -2,7 +2,7 @@
 
 namespace Coordinate
 {
-    class Bird : IFlyable              //class Bird
+    public class Bird : IFlyable              //class Bird
     {
         public void flyTo()
         {

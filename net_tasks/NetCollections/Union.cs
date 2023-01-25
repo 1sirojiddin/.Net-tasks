@@ -2,7 +2,7 @@ using System;
 
 namespace ProjectCarXmlTransform
 {
-    class Union
+    public class Union
     {
         public string ModelVehicle { get; set; }
         public int Power { get; set; }

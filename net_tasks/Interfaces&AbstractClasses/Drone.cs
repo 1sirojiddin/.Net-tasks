@@ -2,7 +2,7 @@
 
 namespace Coordinate
 {
-    class Drone : IFlyable                            //Class Drone
+    public class Drone : IFlyable                            //Class Drone
     {
         public void flyTo()                         //there is given infrmation about drone's properties
         {

@@ -1,6 +1,5 @@
 ﻿using System;
 
-
 namespace Coordinate
 {
     public class AirPlane : IFlyable           //Class Airplane

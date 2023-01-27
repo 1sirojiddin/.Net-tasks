@@ -2,7 +2,7 @@
 
 namespace Coordinate
 {
-    interface IFlyable
+    public interface IFlyable
     {
         void flyTo(); void getFlyTime();
     }

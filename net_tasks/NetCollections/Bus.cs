@@ -1,6 +1,6 @@
 ﻿using System;
 
 namespace ProjectCarXmlTransform
-{
-    public class Bus : Union { }
+{ 
+public class Bus : Union { }
 }

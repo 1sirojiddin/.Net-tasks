@@ -2,32 +2,29 @@
 
 namespace Coordinate
 {
-    public class Drone : IFlyable                            //Class Drone
+public class Drone : IFlyable                            //Class Drone
+{
+    public int Speed { get; set; } = 15;
+    public int Distance { get; set; } = 100;
+    public int FlyTime { get; set; } = 5;
+    public void FlyTo()
     {
-        public void flyTo()                         //there is given infrmation about drone's properties
+        try
         {
-            int speed = 349; int flightTime = 2160;   //30 minutes convert to hour
-            int flightDistance = speed * flightTime / 1000;
-            Console.WriteLine("Information about drone ");
-            Console.WriteLine("Tape the given number to take an information");
-            Console.WriteLine("1.Speed");
-            Console.WriteLine("2.Flight time");
-            Console.WriteLine("3.Flight distance");
-            int z = Convert.ToInt32(Console.ReadLine());         //switch method that the guest  chooses which one is interesting
-            switch (z)
-            {
-                case 1:
-                    Console.WriteLine($"The drone's speed flight is : {speed}");
-                    break;
-                case 2:
-                    Console.WriteLine($"The drone's flight time flight is : {fightTime}");
-                    break;
-                case 3:
-                    Console.WriteLine($"The drone's speed flight is : {flightDistamce}");
-                    break;
-            }
-
+            Speed = Distance / FlyTime;
+            if (Distance <= 0) Console.WriteLine("Error");
         }
-        public void getFlyTime(){}
+        catch (DivideByZeroException) { Console.WriteLine("It is impossible to divide zero"); }
+
     }
+    public void GetFlyTime()
+    {
+        try
+        {
+            FlyTime = Distance / Speed;
+            if (FlyTime <= 0) Console.WriteLine("Error");
+        }
+        catch (DivideByZeroException) { Console.WriteLine("It is impossible to divide zero"); }
+    }
+}
 }

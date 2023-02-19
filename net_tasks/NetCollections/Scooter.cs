@@ -2,5 +2,5 @@
 
 namespace ProjectCarXmlTransform
 {
-    public class Scooter : Union { }
+public class Scooter : Union { }
 }

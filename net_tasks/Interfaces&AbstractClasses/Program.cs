@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace Coordinate
 {
@@ -19,7 +19,6 @@ public static void Main()
     Console.WriteLine($"The bird fly distance is {myAirplane.Distance} km and from this comes that, speed is {myAirplane.Speed} km/h and fly time is {myAirplane.FlyTime} h");
     Console.WriteLine($"The bird fly distance is {myDrone.Distance} km and from this comes that, speed is {myDrone.Speed} km/h and fly time is {myDrone.FlyTime} h");
     Console.ReadLine();
-
 }
 }
 }

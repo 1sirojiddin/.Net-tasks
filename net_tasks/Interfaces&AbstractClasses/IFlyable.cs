@@ -10,8 +10,4 @@ interface IFlyable
     int Distance { get; set; }
     int FlyTime { get; set; }
 }
-    public interface IFlyable
-    {
-        void flyTo(); void getFlyTime();
-    }
 }

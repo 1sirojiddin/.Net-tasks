@@ -15,7 +15,6 @@ public class Drone : IFlyable                            //Class Drone
             if (Distance <= 0) Console.WriteLine("Error");
         }
         catch (DivideByZeroException) { Console.WriteLine("It is impossible to divide zero"); }
-
     }
     public void GetFlyTime()
     {

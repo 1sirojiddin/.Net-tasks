@@ -110,6 +110,7 @@ public class Program
         else
             Console.WriteLine("Scooter: Rejected");
         #endregion
+        // if.. else.. it shows if number of seats > 0 is correct, if not " < 0" error
         #region AllInformation
         vehicles.DefineTo();
         Console.WriteLine($" Vehicles | Power | Volume |  Type   | Serial Number | Wheels | Number of gears |    Manufacturer    |");
@@ -119,7 +120,6 @@ public class Program
         Console.WriteLine($" Bus      | {bus.Power}   |  {bus.Volume}   | {bus.Type}| {bus.SerialNumber}  |    {bus.Wheels}   |        {car.NumberOfGears}        | {bus.Manufacturer} |");
         Console.WriteLine($" Scooter  | {scooter.Power}    |  {scooter.Volume}    | {scooter.Type} | {scooter.SerialNumber}      |    {scooter.Wheels}   |        {car.NumberOfGears}        | {scooter.Manufacturer} |");
         #endregion
-        // if.. else.. it shows if number of seats > 0 is correct, if not " < 0" error
         Console.ReadLine();
     }
 }

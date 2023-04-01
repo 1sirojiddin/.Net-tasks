@@ -3,6 +3,7 @@
 
 namespace CarPark
 {
+
 public class Engine : Vehicle
 {
     private short power;
@@ -19,10 +20,6 @@ public class Engine : Vehicle
         Volume = modulVolume;
         Type = modulType;
         SerialNumber = modulSerialNumber;
-    }
-    public override void TestAmount()
-    {
-
     }
 }
 }

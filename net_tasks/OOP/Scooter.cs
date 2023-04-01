@@ -2,6 +2,7 @@ using System;
 
 namespace CarPark
 {
+
 public class Scooter : Vehicle
 {
     Transmission transmission = new Transmission(2, "Chinese Technology");

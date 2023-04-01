@@ -2,6 +2,7 @@ using System;
 
 namespace CarPark
 {
+
 public class Bus : Vehicle
 {
     Transmission transmission = new Transmission(4, "Deutsch Technology");
@@ -23,7 +24,6 @@ public class Bus : Vehicle
             throw new ArgumentOutOfRangeException();
         }
         catch (ArgumentOutOfRangeException) { }
-
     }
 }
 }

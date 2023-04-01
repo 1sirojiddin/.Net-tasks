@@ -1,8 +1,8 @@
 ﻿using System;
 
-
 namespace CarPark
 {
+
 public class Chassis : Vehicle
 {
     private byte wheels;

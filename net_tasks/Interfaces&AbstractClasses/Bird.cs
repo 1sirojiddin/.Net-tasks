@@ -1,30 +1,21 @@
 ﻿using System;
 
-namespace Coordinate
+namespace InterfacesAbstraction
 {
 public class Bird : IFlyable              //class Bird
 {
-    public int Speed { get; set; } = 5;
-    public int Distance { get; set; } = 100;
-    public int FlyTime { get; set; } = 12;
+    private const double maxSpeed = 20;
+    Coordinate CurrentPosition = new Coordinate(4, 5);
+    public Bird(double speed)
+    {     // the bird's speed  will choose randomly
+        Random ran = new Random();
+        speed = ran.NextDouble() * maxSpeed;
+        Console.WriteLine(speed);
+    }
     public void FlyTo()
     {
-        try
-        {
-            Speed = Distance / FlyTime;
-            if (Distance <= 0) Console.WriteLine("Error");
-        }
-        catch (DivideByZeroException) { Console.WriteLine("It is impossible to divide zero"); }
-
+        Console.WriteLine($"The bird's Currrent Position is {CurrentPosition}");
     }
-    public void GetFlyTime()
-    {
-        try
-        {
-            FlyTime = Distance / Speed;
-            if (FlyTime <= 0) Console.WriteLine("Error");
-        }
-        catch (DivideByZeroException) { Console.WriteLine("It is impossible to divide zero"); }
-    }
+    public void GetFlyTime() { }
 }
 }

@@ -1,29 +1,24 @@
 ﻿using System;
 
-namespace Coordinate
+namespace InterfacesAbstraction
 {
 public class AirPlane : IFlyable           //Class Airplane
 {
-    public int Speed { get; set; } = 35;
-    public int Distance { get; set; } = 100;
-    public int FlyTime { get; set; } = 2;
+    private int speed = 200;                    //initial speed in km/h
+    private const int acceleration = 10;        // every 10 km increases by 10 km/h
+    private const int distance = 100;
+    Coordinate CurrentPosition = new Coordinate(4, 6);  //Position
     public void FlyTo()
     {
-        try
-        {
-            Speed = Distance / FlyTime;
-            if (Distance <= 0) Console.WriteLine("Error");
-        }
-        catch (DivideByZeroException) { Console.WriteLine("It is impossible to divide zero"); }
+        Console.WriteLine($"The plane's current position is {CurrentPosition}");
     }
     public void GetFlyTime()
     {
-        try
+        for (int i = 0; i < distance; i += 10)
         {
-            FlyTime = Distance / Speed;
-            if (FlyTime <= 0) Console.WriteLine("Error");
+            speed += acceleration;
+            Console.WriteLine($"At {i + 10}km, the speed is {speed} km/h");
         }
-        catch (DivideByZeroException) { Console.WriteLine("It is impossible to divide zero"); }
     }
 }
 }

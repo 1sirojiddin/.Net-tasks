@@ -1,29 +1,22 @@
 ﻿using System;
 
-namespace Coordinate
+namespace InterfacesAbstraction
 {
 public class Drone : IFlyable                            //Class Drone
 {
-    public int Speed { get; set; } = 15;
-    public int Distance { get; set; } = 100;
-    public int FlyTime { get; set; } = 5;
+    private const int hoverTime = 1;
+    private const int maxDistance = 1000;
+    Coordinate CurrentPosition = new Coordinate(2, 5);
     public void FlyTo()
     {
-        try
-        {
-            Speed = Distance / FlyTime;
-            if (Distance <= 0) Console.WriteLine("Error");
-        }
-        catch (DivideByZeroException) { Console.WriteLine("It is impossible to divide zero"); }
+        Console.WriteLine($"The drone's Currrent Position is {CurrentPosition}");
     }
     public void GetFlyTime()
     {
-        try
+        if (maxDistance > 1000)     // Drone's max flight distance is 1000
         {
-            FlyTime = Distance / Speed;
-            if (FlyTime <= 0) Console.WriteLine("Error");
+            Console.WriteLine("The drone can't flight more than 1000");
         }
-        catch (DivideByZeroException) { Console.WriteLine("It is impossible to divide zero"); }
     }
 }
 }

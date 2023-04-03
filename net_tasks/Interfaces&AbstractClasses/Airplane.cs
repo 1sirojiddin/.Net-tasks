@@ -14,7 +14,7 @@ public class AirPlane : IFlyable           //Class Airplane
     }
     public void GetFlyTime()
     {
-        for (int i = 0; i < distance; i += 10)
+        for (int i = 0; i < distance; i += 10). // cycle for 10km speed increase by 10km/h
         {
             speed += acceleration;
             Console.WriteLine($"At {i + 10}km, the speed is {speed} km/h");

@@ -2,6 +2,7 @@
 
 namespace InterfacesAbstraction
 {
+
 public class AirPlane : IFlyable           //Class Airplane
 {
     private int speed = 200;                    //initial speed in km/h

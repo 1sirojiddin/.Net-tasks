@@ -3,8 +3,8 @@
 namespace InterfacesAbstraction
 {
 interface IFlyable
-{
-    void FlyTo();
+{       // methods
+    void FlyTo();  
     void GetFlyTime();
 }
 }

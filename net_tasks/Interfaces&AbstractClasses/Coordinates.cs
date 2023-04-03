@@ -1,8 +1,8 @@
 ﻿using System;
 
-
 namespace InterfacesAbstraction
 {
+
 public struct Coordinate
 {
     public int X { get; set; }

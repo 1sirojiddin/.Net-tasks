@@ -2,6 +2,7 @@ using System;
 
 namespace Coordinate
 {
+
 public class Program
 {
 public static void Main()

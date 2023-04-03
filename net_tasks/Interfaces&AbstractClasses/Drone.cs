@@ -2,9 +2,9 @@
 
 namespace InterfacesAbstraction
 {
-public class Drone : IFlyable                            //Class Drone
+public class Drone : IFlyable                            
 {
-    private const int hoverTime = 1;
+    private const int hoverTime = 1;  
     private const int maxDistance = 1000;
     Coordinate CurrentPosition = new Coordinate(2, 5);
     public void FlyTo()

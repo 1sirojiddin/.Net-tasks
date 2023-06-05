@@ -2,7 +2,6 @@ using System;
 
 namespace CarPark
 {
-
 public class Vehicle
 {
     public virtual void DefineTo()

@@ -8,7 +8,6 @@ class Bus : Vehicle
     public string EngineType { get; set; }
     public string SerialNumber { get; set; }
     public int PowerRating { get; set; }
-
     public override XElement ToXml()
     {
         var xml = base.ToXml();

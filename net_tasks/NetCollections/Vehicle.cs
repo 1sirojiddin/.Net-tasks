@@ -11,7 +11,6 @@ class Vehicle
     public string Model { get; set; }
     public double EngineCapacity { get; set; }
     public string Transmission { get; set; }
-
     public virtual XElement ToXml()
     {
         return new XElement("Vehicle",

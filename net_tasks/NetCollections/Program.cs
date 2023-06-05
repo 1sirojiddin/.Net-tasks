@@ -2,81 +2,94 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Xml.Linq;
+using System.IO;
+using ProjectCarXmlTransform;
 
 namespace ProjectCarXmlTransform
 {
-public class XMLTransform
+class Program
 {
-public static void Main()
+static void Main(string[] args)
 {
-    List<PassengerCar> car = new List<PassengerCar>()
-    {
-        new PassengerCar {ModelVehicle = "Cadillac CT4 2022", Power = 325, Type = "Luxury sports sedan", Wheels = 4, Volume = 90, SerialNumber = "N0460056", NumberOfGears = "Twin turbo, six speed", Manufacturer = "GeneralMotors"},
+    var vehicles = new List<Vehicle> {
+    new Truck {
+        Brend = "Ford",
+        Model = "F-150",
+        EngineCapacity = 3.5,
+        Transmission = "Automatic",
+        EngineType = "V6",
+        SerialNumber = "12345",
+        PowerRating = 250
+    },
+    new Car {
+        Brend = "Tesla",
+        Model = "Model S",
+        EngineCapacity = 0,
+        Transmission = "Electric",
+        IsElectric = true
+    },
+    new Bus {
+        Brend = "Volvo",
+        Model = "7700",
+        EngineCapacity = 7.7,
+        Transmission = "Automatic",
+        EngineType = "Diesel",
+        SerialNumber = "67890",
+        PowerRating = 300
+    },
+    new Scooter {
+        Brend = "Honda",
+        Model = "PCX",
+        EngineCapacity = 0.125,
+        Transmission = "Automatic",
+        TopSpeed = 90
+    }
     };
-    List<Truck> truck = new List<Truck>()
-    {
-        new Truck {ModelVehicle = "Actros 2640LS", Power = 400, Type = "Integral power Steering", Wheels = 10, Volume = 90, SerialNumber = "N0460056", NumberOfGears = "Twin turbo, six speed", Manufacturer = "GeneralMotors"}
-    };
-    List<Bus> bus = new List<Bus>()
-    {
-        new Bus{ModelVehicle = "eCitaro", Power = 490, Type = "Voith automatic transmission", Wheels = 4, Volume = 96, SerialNumber = "WEB63960113221075", NumberOfGears = "five different 16-speed gearbox", Manufacturer = "Mercedes-Benz"}
-    };
-    List<Scooter> scooter = new List<Scooter>()
-    {
-        new Scooter{ModelVehicle = "Apollo city", Power = 500, Type = "electric scooter", Wheels = 2, Volume = 48, SerialNumber = "City2101101", NumberOfGears = "14.5 Max.speed", Manufacturer = "Electric Scooter Factory"}
-    };
-        // Verification indexes
-        foreach (Union obj in car)
-        {
-            if (obj.Power < 0) Console.WriteLine("Power: Index have to be greater than 0");
-            if (obj.Volume < 0) Console.WriteLine("Volume: Index have to be greater than 0");
-            if (obj.Wheels < 0) Console.WriteLine("Wheels: Index have to be greater than 0");
-        }
-        // Create the query.
-        var carsToXml = new XElement("Root",
-        from PassengerCar in car
-        select new XElement("PassengerCarDetails",
-                    new XElement("ModelVehicle", PassengerCar.ModelVehicle),
-                    new XElement("Power", PassengerCar.Power),
-                    new XElement("Type", PassengerCar.Type),
-                    new XElement("Wheels", PassengerCar.Wheels),
-                    new XElement("Volume", PassengerCar.Volume),
-                    new XElement("SerialNumber", PassengerCar.SerialNumber),
-                    new XElement("Manufacturer", PassengerCar.Manufacturer)
-                    ),
-            from Truck in truck
-            select new XElement("TruckCarDetails",
-                        new XElement("ModelVehicle", Truck.ModelVehicle),
-                        new XElement("Power", Truck.Power),
-                        new XElement("Type", Truck.Type),
-                        new XElement("Wheels", Truck.Wheels),
-                        new XElement("Volume", Truck.Volume),
-                        new XElement("SerialNumber", Truck.SerialNumber),
-                        new XElement("Manufacturer", Truck.Manufacturer)
-                        ),
-            from Bus in bus
-            select new XElement("BusCarDetails",
-                        new XElement("ModelVehicle", Bus.ModelVehicle),
-                        new XElement("Power", Bus.Power),
-                        new XElement("Type", Bus.Type),
-                        new XElement("Wheels", Bus.Wheels),
-                        new XElement("Volume", Bus.Volume),
-                        new XElement("SerialNumber", Bus.SerialNumber),
-                        new XElement("Manufacturer", Bus.Manufacturer)
-                        ),
-            from Scooter in scooter
-            select new XElement("ScooterCarDetails",
-                        new XElement("ModelVehicle", Scooter.ModelVehicle),
-                        new XElement("Power", Scooter.Power),
-                        new XElement("Type", Scooter.Type),
-                        new XElement("Wheels", Scooter.Wheels),
-                        new XElement("Volume", Scooter.Volume),
-                        new XElement("SerialNumber", Scooter.SerialNumber),
-                        new XElement("Manufacturer", Scooter.Manufacturer)
-                        )
-        );
-    Console.WriteLine(carsToXml);
-    Console.ReadLine();
+    // All information about all vehicles an engine capacity of which is more than 1.5 liters
+    var highCapacityVehiclesXml = new XElement("Vehicles",
+        from vehicle in vehicles
+        where vehicle.EngineCapacity > 1.5
+        select vehicle.ToXml());
+
+    // Engine type, serial number and power rating for all buses and trucks
+    var engineInfoXmlBus = new XElement("EngineInfo",
+        from vehicle in vehicles
+        where vehicle is Bus
+        select new XElement("Engine",
+            new XElement("EngineType", ((Bus)vehicle).EngineType),
+            new XElement("SerialNumber", ((Bus)vehicle).SerialNumber),
+            new XElement("PowerRating", ((Bus)vehicle).PowerRating)
+        )
+    );
+    // Engine type, serial number and power rating for all buses and trucks
+    var engineInfoXmlTruck = new XElement("EngineInfo",
+        from vehicle in vehicles
+        where vehicle is Truck
+        select new XElement("Engine",
+            new XElement("EngineType", ((Truck)vehicle).EngineType),
+            new XElement("SerialNumber", ((Truck)vehicle).SerialNumber),
+            new XElement("PowerRating", ((Truck)vehicle).PowerRating)
+        )
+    );
+    // All information about all vehicles, grouped by transmission type
+    var groupedVehiclesXml = new XElement("Vehicles",
+        from vehicle in vehicles
+        group vehicle by vehicle.Transmission into transmissionGroup
+        select new XElement("Group",
+            new XAttribute("Transmission", transmissionGroup.Key),
+            from groupedVehicle in transmissionGroup
+            select groupedVehicle.ToXml()
+        )
+    );
+    // Write the XML data to a file
+    var highCapacityVehiclesFile = new FileStream("highCapacityVehicles.xml", FileMode.Create);
+    highCapacityVehiclesXml.Save(highCapacityVehiclesFile);
+    var engineInfoXmlBusFile = new FileStream("engineInfoXmlBus.xml", FileMode.Create);
+    engineInfoXmlBus.Save(engineInfoXmlBusFile);
+    var engineInfoXmlTruckFile = new FileStream("engineInfoXmlTruck.xml", FileMode.Create);
+    engineInfoXmlTruck.Save(engineInfoXmlTruckFile);
+    var groupedVehiclesXmlFile = new FileStream("groupedVehiclesXml.xml", FileMode.Create);
+    groupedVehiclesXml.Save(groupedVehiclesXmlFile);
 }
 }
 }

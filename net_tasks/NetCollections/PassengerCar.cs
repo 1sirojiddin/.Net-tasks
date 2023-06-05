@@ -2,5 +2,8 @@
 
 namespace ProjectCarXmlTransform
 {
-public class PassengerCar : Union { }
+class Car : Vehicle
+{
+    public bool IsElectric { get; set; }
+}
 }

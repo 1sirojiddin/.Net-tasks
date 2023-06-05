@@ -2,5 +2,8 @@
 
 namespace ProjectCarXmlTransform
 {
-public class Scooter : Union { }
+class Scooter : Vehicle
+{
+    public int TopSpeed { get; set; }
+}
 }

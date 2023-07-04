@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Vehicles>
+  <Group Transmission="Automatic">
+    <Vehicle>
+      <Make>Ford</Make>
+      <Model>F-150</Model>
+      <EngineCapacity>3.5</EngineCapacity>
+      <Transmission>Automatic</Transmission>
+      <EngineType>V6</EngineType>
+      <SerialNumber>12345</SerialNumber>
+      <PowerRating>250</PowerRating>
+    </Vehicle>
+    <Vehicle>
+      <Make>Volvo</Make>
+      <Model>7700</Model>
+      <EngineCapacity>7.7</EngineCapacity>
+      <Transmission>Automatic</Transmission>
+      <EngineType>Diesel</EngineType>
+      <SerialNumber>67890</SerialNumber>
+      <PowerRating>300</PowerRating>
+    </Vehicle>
+    <Vehicle>
+      <Make>Honda</Make>
+      <Model>PCX</Model>
+      <EngineCapacity>0.125</EngineCapacity>
+      <Transmission>Automatic</Transmission>
+    </Vehicle>
+  </Group>
+  <Group Transmission="Electric">
+    <Vehicle>
+      <Make>Tesla</Make>
+      <Model>Model S</Model>
+      <EngineCapacity>0</EngineCapacity>
+      <Transmission>Electric</Transmission>
+    </Vehicle>
+  </Group>
+</Vehicles>

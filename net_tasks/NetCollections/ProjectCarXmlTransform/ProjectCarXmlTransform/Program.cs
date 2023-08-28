@@ -88,6 +88,7 @@ public static void Main(string[] args)
     engineInfoXmlTruck.Save(engineInfoXmlTruckFile);
     var groupedVehiclesXmlFile = new FileStream("groupedVehiclesXml.xml", FileMode.Create);
     groupedVehiclesXml.Save(groupedVehiclesXmlFile);
+           
 }
 }
 }

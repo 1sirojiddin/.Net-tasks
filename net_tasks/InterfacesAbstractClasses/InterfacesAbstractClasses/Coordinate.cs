@@ -2,19 +2,18 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
+
 
 namespace InterfacesAbstractClasses
 {
-    struct Coordinate
+public struct Coordinate
+{
+    public double x, y, z;
+    public Coordinate(double x, double y, double z)
     {
-        public double x, y, z;
-
-        public Coordinate(double x, double y, double z)
-        {
-            this.x = x;
-            this.y = y;
-            this.z = z;
-        }
+        this.x = x;
+        this.y = y;
+        this.z = z;
     }
+}
 }

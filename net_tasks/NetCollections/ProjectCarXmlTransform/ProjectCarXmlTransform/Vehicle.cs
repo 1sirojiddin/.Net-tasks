@@ -18,6 +18,5 @@ public class Vehicle
             new XElement("Transmission", Transmission)
         );
     }
-        
 }
 }

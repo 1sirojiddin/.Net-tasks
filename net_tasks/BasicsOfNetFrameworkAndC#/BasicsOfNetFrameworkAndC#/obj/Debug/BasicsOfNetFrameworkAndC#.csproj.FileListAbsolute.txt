@@ -1,0 +1,8 @@
+C:\Users\User\.Net-tasks\net_tasks\BasicsOfNetFrameworkAndC#\BasicsOfNetFrameworkAndC#\bin\Debug\BasicsOfNetFrameworkAndC#.exe.config
+C:\Users\User\.Net-tasks\net_tasks\BasicsOfNetFrameworkAndC#\BasicsOfNetFrameworkAndC#\bin\Debug\BasicsOfNetFrameworkAndC#.exe
+C:\Users\User\.Net-tasks\net_tasks\BasicsOfNetFrameworkAndC#\BasicsOfNetFrameworkAndC#\bin\Debug\BasicsOfNetFrameworkAndC#.pdb
+C:\Users\User\.Net-tasks\net_tasks\BasicsOfNetFrameworkAndC#\BasicsOfNetFrameworkAndC#\obj\Debug\BasicsOfNetFrameworkAndC#.csproj.AssemblyReference.cache
+C:\Users\User\.Net-tasks\net_tasks\BasicsOfNetFrameworkAndC#\BasicsOfNetFrameworkAndC#\obj\Debug\BasicsOfNetFrameworkAndC#.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\.Net-tasks\net_tasks\BasicsOfNetFrameworkAndC#\BasicsOfNetFrameworkAndC#\obj\Debug\BasicsOfNetFrameworkAndC#.csproj.CoreCompileInputs.cache
+C:\Users\User\.Net-tasks\net_tasks\BasicsOfNetFrameworkAndC#\BasicsOfNetFrameworkAndC#\obj\Debug\BasicsOfNetFrameworkAndC#.exe
+C:\Users\User\.Net-tasks\net_tasks\BasicsOfNetFrameworkAndC#\BasicsOfNetFrameworkAndC#\obj\Debug\BasicsOfNetFrameworkAndC#.pdb

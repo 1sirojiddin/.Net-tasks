@@ -1,8 +1,0 @@
-C:\Users\User\.Net-tasks\net_tasks\InterfacesAbstractClasses\InterfacesAbstractClasses\bin\Debug\InterfacesAbstractClasses.exe.config
-C:\Users\User\.Net-tasks\net_tasks\InterfacesAbstractClasses\InterfacesAbstractClasses\bin\Debug\InterfacesAbstractClasses.exe
-C:\Users\User\.Net-tasks\net_tasks\InterfacesAbstractClasses\InterfacesAbstractClasses\bin\Debug\InterfacesAbstractClasses.pdb
-C:\Users\User\.Net-tasks\net_tasks\InterfacesAbstractClasses\InterfacesAbstractClasses\obj\Debug\InterfacesAbstractClasses.csproj.AssemblyReference.cache
-C:\Users\User\.Net-tasks\net_tasks\InterfacesAbstractClasses\InterfacesAbstractClasses\obj\Debug\InterfacesAbstractClasses.csproj.SuggestedBindingRedirects.cache
-C:\Users\User\.Net-tasks\net_tasks\InterfacesAbstractClasses\InterfacesAbstractClasses\obj\Debug\InterfacesAbstractClasses.csproj.CoreCompileInputs.cache
-C:\Users\User\.Net-tasks\net_tasks\InterfacesAbstractClasses\InterfacesAbstractClasses\obj\Debug\InterfacesAbstractClasses.exe
-C:\Users\User\.Net-tasks\net_tasks\InterfacesAbstractClasses\InterfacesAbstractClasses\obj\Debug\InterfacesAbstractClasses.pdb

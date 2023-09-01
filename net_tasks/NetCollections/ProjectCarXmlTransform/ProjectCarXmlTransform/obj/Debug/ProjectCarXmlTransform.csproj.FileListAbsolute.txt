@@ -1,8 +1,0 @@
-C:\Users\User\.Net-tasks\net_tasks\NetCollections\ProjectCarXmlTransform\ProjectCarXmlTransform\bin\Debug\ProjectCarXmlTransform.exe.config
-C:\Users\User\.Net-tasks\net_tasks\NetCollections\ProjectCarXmlTransform\ProjectCarXmlTransform\bin\Debug\ProjectCarXmlTransform.exe
-C:\Users\User\.Net-tasks\net_tasks\NetCollections\ProjectCarXmlTransform\ProjectCarXmlTransform\bin\Debug\ProjectCarXmlTransform.pdb
-C:\Users\User\.Net-tasks\net_tasks\NetCollections\ProjectCarXmlTransform\ProjectCarXmlTransform\obj\Debug\ProjectCarXmlTransform.csproj.AssemblyReference.cache
-C:\Users\User\.Net-tasks\net_tasks\NetCollections\ProjectCarXmlTransform\ProjectCarXmlTransform\obj\Debug\ProjectCarXmlTransform.csproj.SuggestedBindingRedirects.cache
-C:\Users\User\.Net-tasks\net_tasks\NetCollections\ProjectCarXmlTransform\ProjectCarXmlTransform\obj\Debug\ProjectCarXmlTransform.csproj.CoreCompileInputs.cache
-C:\Users\User\.Net-tasks\net_tasks\NetCollections\ProjectCarXmlTransform\ProjectCarXmlTransform\obj\Debug\ProjectCarXmlTransform.exe
-C:\Users\User\.Net-tasks\net_tasks\NetCollections\ProjectCarXmlTransform\ProjectCarXmlTransform\obj\Debug\ProjectCarXmlTransform.pdb

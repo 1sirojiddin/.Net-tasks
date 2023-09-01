@@ -1,7 +1,7 @@
 ﻿using System;
 
 namespace NetCollection;
-public class Car : Vehicle
-{
-    public bool IsElectric { get; set; }
-}
+    public class Car : Vehicle
+    {
+        public bool IsElectric { get; set; }
+    }

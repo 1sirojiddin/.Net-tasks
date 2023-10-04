@@ -1,0 +1,14 @@
+C:\Users\User\.Net-tasks\net_tasks\OODPrinciples\OODPrinciples\bin\Debug\net7.0\OODPrinciples.exe
+C:\Users\User\.Net-tasks\net_tasks\OODPrinciples\OODPrinciples\bin\Debug\net7.0\OODPrinciples.deps.json
+C:\Users\User\.Net-tasks\net_tasks\OODPrinciples\OODPrinciples\bin\Debug\net7.0\OODPrinciples.runtimeconfig.json
+C:\Users\User\.Net-tasks\net_tasks\OODPrinciples\OODPrinciples\bin\Debug\net7.0\OODPrinciples.dll
+C:\Users\User\.Net-tasks\net_tasks\OODPrinciples\OODPrinciples\bin\Debug\net7.0\OODPrinciples.pdb
+C:\Users\User\.Net-tasks\net_tasks\OODPrinciples\OODPrinciples\obj\Debug\net7.0\OODPrinciples.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\.Net-tasks\net_tasks\OODPrinciples\OODPrinciples\obj\Debug\net7.0\OODPrinciples.AssemblyInfoInputs.cache
+C:\Users\User\.Net-tasks\net_tasks\OODPrinciples\OODPrinciples\obj\Debug\net7.0\OODPrinciples.AssemblyInfo.cs
+C:\Users\User\.Net-tasks\net_tasks\OODPrinciples\OODPrinciples\obj\Debug\net7.0\OODPrinciples.csproj.CoreCompileInputs.cache
+C:\Users\User\.Net-tasks\net_tasks\OODPrinciples\OODPrinciples\obj\Debug\net7.0\OODPrinciples.dll
+C:\Users\User\.Net-tasks\net_tasks\OODPrinciples\OODPrinciples\obj\Debug\net7.0\refint\OODPrinciples.dll
+C:\Users\User\.Net-tasks\net_tasks\OODPrinciples\OODPrinciples\obj\Debug\net7.0\OODPrinciples.pdb
+C:\Users\User\.Net-tasks\net_tasks\OODPrinciples\OODPrinciples\obj\Debug\net7.0\OODPrinciples.genruntimeconfig.cache
+C:\Users\User\.Net-tasks\net_tasks\OODPrinciples\OODPrinciples\obj\Debug\net7.0\ref\OODPrinciples.dll
